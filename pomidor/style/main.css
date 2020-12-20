@@ -1754,7 +1754,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 400px;
     right: auto;
-    top: auto;
+    top: 35%;
     left: 50%;
     bottom: 0;
     -webkit-transform: translateX(-50%);
