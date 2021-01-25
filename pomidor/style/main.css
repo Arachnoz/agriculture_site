@@ -2875,3 +2875,7 @@ footer ul a:visited {
 #days,#hours,#min,#sec {display:block;width:80px;height:80px;background-color:#000;color:#FFF;font-size:40pt;font-family:arial;padding:0;line-height:80px;} 
 #istime {width:auto;margin:auto;}
 #istime td {padding:5px 5px 5px 10px;text-align:center;font-family:arial;border:0;}
+
+@media only screen and (max-width: 768px) {
+ #days,#hours,#min,#sec {display:block;width:40px;height:40px;background-color:#000;color:#FFF;font-size:25pt;font-family:arial;padding:0;line-height:80px;} 
+}
