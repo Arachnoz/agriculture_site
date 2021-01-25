@@ -1754,14 +1754,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 400px;
     right: auto;
-    top: 35%;
+    top: auto;
     left: 50%;
     bottom: 0;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     padding: 0;
-    margin-bottom: -378px;
+    margin-bottom: -200px;
   }
 }
 
@@ -1821,7 +1821,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .home-image-right {
     width: 320px;
-    margin-bottom: -298px;
+    margin-bottom: -168px;
   }
 }
 
@@ -1968,6 +1968,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .about-intro {
     max-width: 800px;
     text-align: center;
+  }
+  .about-intro ol, .about-intro h4 {
+    max-width: 800px;
+    text-align: left;
   }
   .about-intro h1::before {
     left: 50%;
