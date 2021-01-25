@@ -22,4 +22,3 @@ document.getElementById("hours").innerHTML = pad(hours);
 document.getElementById("min").innerHTML = pad(minutes);
 document.getElementById("sec").innerHTML = pad(seconds);
 }, 1000);
-alert (days);
