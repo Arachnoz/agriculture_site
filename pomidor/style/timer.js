@@ -12,7 +12,7 @@ var now = new Date().getTime();
 // разность между таймером и текущим временем
 var distance = countDownDate - now;
 // подсчёт calculations for days, hours, minutes and seconds
-var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var days = distance / (1000 * 60 * 60 * 24);
 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
@@ -22,3 +22,4 @@ document.getElementById("hours").innerHTML = pad(hours);
 document.getElementById("min").innerHTML = pad(minutes);
 document.getElementById("sec").innerHTML = pad(seconds);
 }, 1000);
+alert distance;
