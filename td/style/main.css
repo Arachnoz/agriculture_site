@@ -1502,7 +1502,7 @@ h1.intro-header::before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding-top: 21rem;
+  padding-top: 18rem;
   z-index: 500;
   width: 50%;
   text-align: right;
