@@ -363,6 +363,7 @@ dd {
 button,
 .button {
   margin-bottom: 1.2rem;
+  z-index:999999;
 }
 
 fieldset {
@@ -1502,7 +1503,7 @@ h1.intro-header::before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding-top: 18rem;
+  padding-top: 21rem;
   z-index: 500;
   width: 50%;
   text-align: right;
@@ -2875,3 +2876,7 @@ footer ul a:visited {
 #days,#hours,#min,#sec {display:block;width:80px;height:80px;background-color:#000;color:#FFF;font-size:40pt;font-family:arial;padding:0;line-height:80px;} 
 #istime {width:auto;margin:auto;}
 #istime td {padding:5px 5px 5px 10px;text-align:center;font-family:arial;border:0;}
+
+@media only screen and (max-width: 768px) {
+ #days,#hours,#min,#sec {display:block;width:50px;height:50px;background-color:#000;color:#FFF;font-size:25pt;padding:0;line-height:50px;} 
+}
