@@ -1970,7 +1970,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     max-width: 800px;
     text-align: center;
   }
-  .about-intro ol, .about-intro h4 {
+  .about-intro ul, .about-intro h4 {
     max-width: 800px;
     text-align: left;
   }
