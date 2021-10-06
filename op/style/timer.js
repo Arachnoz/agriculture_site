@@ -4,7 +4,7 @@ if (n < 10) return "0" + n;
 return n;
 }
 // установка даты таймера
-var countDownDate = new Date("Okt 08, 2021 23:59:00").getTime();
+var countDownDate = new Date("Mar 16, 2021 23:59:00").getTime();
 // ежесекундное обновление
 var x = setInterval(function() {
 // сегодняшние дата и время
@@ -24,4 +24,3 @@ document.getElementById("hours").innerHTML = pad(hours);
 document.getElementById("min").innerHTML = pad(minutes);
 document.getElementById("sec").innerHTML = pad(seconds);
 }, 1000);
-alert (days);
