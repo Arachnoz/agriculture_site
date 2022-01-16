@@ -4,7 +4,7 @@ if (n < 10) return "0" + n;
 return n;
 }
 // установка даты таймера
-var countDownDate = new Date("Jan 08, 2022 23:59:00").getTime();
+var countDownDate = new Date("Jan 17, 2022 23:59:00").getTime();
 // ежесекундное обновление
 var x = setInterval(function() {
 // сегодняшние дата и время
