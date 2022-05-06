@@ -2083,7 +2083,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #pricing {
   background: #ebebeb;
-  padding-top: 15rem;
+  padding-top: 6rem;
   padding-bottom: 12rem;
 }
 
@@ -2475,7 +2475,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 }
 
-#howto {background-color:#fff;padding-top:130px;}
+#howto {background-color:#fff;padding-top:6rem;}
 
 /* ===================================================================
  *  14. download - (_layout.scss)
