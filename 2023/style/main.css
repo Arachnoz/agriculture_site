@@ -1,6 +1,6 @@
-@import url("../style/font-awesome.min.css");
-@import url("../style/micons.css");
-@import url("../style/fonts.css");
+@import url("/tomat/style/font-awesome.min.css");
+@import url("/tomat/style/micons.css");
+@import url("/tomat/style/fonts.css");
 
 html {
   font-size: 10px;
@@ -1755,7 +1755,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .home-image-right {
     width: 320px;
-    margin-bottom: -188px;
+    margin-bottom: -206px;
   }
 }
 
