@@ -1901,14 +1901,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 @media only screen and (max-width: 1024px) {
   .about-intro {
     max-width: 800px;
-    text-align: center;
+  /*  text-align: center; */
   }
   .about-intro ol, .about-intro h4 {
     max-width: 800px;
     text-align: left;
   }
   .about-intro h1::before {
-    left: 50%;
+    left:0;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
