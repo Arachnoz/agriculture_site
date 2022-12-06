@@ -1695,7 +1695,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     padding: 0;
-    margin-bottom: -230px;
+    margin-bottom: -240px;
   }
 }
 
